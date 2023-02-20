@@ -25,7 +25,7 @@ docker run -it --rm -v ~/docker/docker-elk/.fscrawler:/root/.fscrawler -v ~/dock
 ### 設定[_settings.yml](https://github.com/Ben950128/ELK-FSCrawler/blob/main/.fscrawler/upload_files/_settings.yaml)
 
 * update_rate: 可調每隔幾分鐘去撈資料夾(~/docker/docker-elk/tmp/docs)內的檔案並上傳至Elasticsearch
-* url: 設定elasticsearch的ip:port。若用"http://127.0.0.1:9200"會出錯，因為127.0.0.1是指container本身，非LocalHost，這裡為"http://host.docker.internal:9200"
+* url: 設定elasticsearch的ip:port。若用"http://<span></span>127.0.0.1:9200"會出錯，因為127.0.0.1是指container本身，非LocalHost，這裡為"http://<span></span>host.docker.internal:9200"
 * username: "elastic"
 * password: "password"
 * ssl_verification: false
