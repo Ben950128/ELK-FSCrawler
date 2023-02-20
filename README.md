@@ -42,6 +42,9 @@ docker run -it --rm -v ~/docker/docker-elk/.fscrawler:/root/.fscrawler -v ~/dock
 > 正常來說啟動時會出現 [f.p.e.c.f.t.TikaInstance] OCR is enabled. This might slowdown the process。
 > 但第一次啟動後會在[upload_files](https://github.com/Ben950128/ELK-FSCrawler/blob/main/.fscrawler/upload_files)出現_status.json檔案，導致以後不會再進行OCR辨識，因此必須時時刻刻刪除_status.json檔案(有點怪QQ)。
 
+## Elasticsearch上進行全文檢索
+![image](https://github.com/Ben950128/ELK-FSCrawler/blob/main/image/search.png)
+
 
 ## 刪除ELK
 
