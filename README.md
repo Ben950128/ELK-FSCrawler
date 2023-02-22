@@ -44,7 +44,7 @@ docker run -it --rm -v ~/docker/docker-elk/.fscrawler:/root/.fscrawler -v ~/dock
 
 ## Elasticsearch上進行全文檢索
 ![image](https://github.com/Ben950128/ELK-FSCrawler/blob/main/image/search.png)
-![image](https://github.com/Ben950128/ELK-FSCrawler/blob/main/image/search_2.png)
+![image](https://github.com/Ben950128/ELK-FSCrawler/blob/main/image/search2.png)
 
 ## 刪除ELK
 
